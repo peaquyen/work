@@ -1,0 +1,63 @@
+.mg-form {
+    margin-bottom: 10px;
+}
+
+.mg-btn {
+    width: 50%;
+    margin: 5px 25%;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.promotions {
+    width: 100%;
+    height: 290px;
+    position: relative;
+    background: url(../images/showcase.jpg) no-repeat center/cover;    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.summary {
+    z-index: 1;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.desc {
+    font-size: 1.2rem;
+}
+
+.text {
+    color: white;
+}
+
+.text:hover {
+    color: black;
+}
+
+.text-index {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.text-index:hover {
+    color: black;
+}
+
+.hidden-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
